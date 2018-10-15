@@ -1,0 +1,10 @@
+diff a/lib/ios/AirGoogleMaps/AIRGoogleMapUrlTile.m b/lib/ios/AirGoogleMaps/AIRGoogleMapUrlTile.m	(rejected hunks)
+@@ -44,4 +46,6 @@ - (GMSTileURLConstructor)_getTileURLConstructor
+   return urls;
+ }
+ 
+-@end
+\ No newline at end of file
++@end
++
++#endif

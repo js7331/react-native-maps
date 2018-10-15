@@ -1,0 +1,7 @@
+diff a/lib/ios/AirGoogleMaps/AIRGoogleMapURLTileManager.m b/lib/ios/AirGoogleMaps/AIRGoogleMapURLTileManager.m	(rejected hunks)
+@@ -26,3 +28,5 @@ - (UIView *)view
+ RCT_EXPORT_VIEW_PROPERTY(minimumZ, NSInteger)
+ 
+ @end
++
++#endif

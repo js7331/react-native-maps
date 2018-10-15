@@ -5,6 +5,8 @@
 //  Created by Gil Birman on 9/1/16.
 //
 
+#ifdef HAVE_GOOGLE_MAPS
+
 #import "AIRGoogleMap.h"
 #import "AIRGoogleMapMarker.h"
 #import "AIRGoogleMapMarkerManager.h"
@@ -410,6 +412,7 @@ id regionAsJSON(MKCoordinateRegion region) {
 }
 
 + (NSString *)GetIconUrl:(GMUPlacemark *) marker parser:(GMUKMLParser *) parser {
+#ifdef HAVE_GOOGLE_MAPS_UTILS
   if (marker.style.styleID != nil) {
     for (GMUStyle *style in parser.styles) {
       if (style.styleID == marker.style.styleID) {

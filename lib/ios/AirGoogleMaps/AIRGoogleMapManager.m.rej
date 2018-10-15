@@ -1,0 +1,7 @@
+diff a/lib/ios/AirGoogleMaps/AIRGoogleMapManager.m b/lib/ios/AirGoogleMaps/AIRGoogleMapManager.m	(rejected hunks)
+@@ -473,3 +475,5 @@ - (void)mapView:(GMSMapView *)mapView
+     [googleMapView didTapPOIWithPlaceID:placeID name:name location:location];
+ }
+ @end
++
++#endif
