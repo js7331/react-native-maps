@@ -1,7 +1,0 @@
-diff a/lib/ios/AirGoogleMaps/AIRGoogleMapUrlTile.h b/lib/ios/AirGoogleMaps/AIRGoogleMapUrlTile.h	(rejected hunks)
-@@ -15,3 +17,5 @@
- @property NSInteger *minimumZ;
- 
- @end
-+
-+#endif

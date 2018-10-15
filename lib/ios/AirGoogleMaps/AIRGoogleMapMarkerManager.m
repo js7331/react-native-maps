@@ -5,8 +5,6 @@
 //  Created by Gil Birman on 9/2/16.
 //
 
-#ifdef HAVE_GOOGLE_MAPS
-
 #import "AIRGoogleMapMarkerManager.h"
 #import "AIRGoogleMapMarker.h"
 #import <MapKit/MapKit.h>
@@ -70,5 +68,3 @@ RCT_EXPORT_METHOD(hideCallout:(nonnull NSNumber *)reactTag)
   }];
 }
 @end
-
-#endif

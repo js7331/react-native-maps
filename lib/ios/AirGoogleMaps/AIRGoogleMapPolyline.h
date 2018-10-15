@@ -3,8 +3,6 @@
 //
 //  Created by Nick Italiano on 10/22/16.
 //
-
-#ifdef HAVE_GOOGLE_MAPS
 #import <UIKit/UIKit.h>
 #import <GoogleMaps/GoogleMaps.h>
 #import <React/RCTBridge.h>
@@ -29,5 +27,3 @@
 @property (nonatomic, assign) BOOL tappable;
 
 @end
-
-#endif
